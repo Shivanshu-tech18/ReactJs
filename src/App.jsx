@@ -1,19 +1,15 @@
 import './App.css'
-
+import StudentCard from './StudentCard';
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Shivanshu Tripathi</h1>
-        <p>
-      B.Tech CSE Student
-        </p>
-      <p>
-        Learning React Day 1
-        </p> 
-          
-      </div>
+    <div>
+
+      <StudentCard name="Shivanshu" course="Btech cse" year={4} />
+      <StudentCard name="Suchita" course="Btech cys" year={4} />
+      <StudentCard name="Rohit" course="Btech cse" year={4} />
+    </div>
     </>
   )
 }
