@@ -4,3 +4,24 @@
   padding: 3px;
   margin-top: 5vh;
 }
+*{
+  margin: 5%;
+  padding: 5%;
+}
+.counter div{
+  border: 5px solid whitesmoke;
+  border-radius: 3px;
+  background-color: rgb(5, 40, 40);
+}
+body{
+  background-color: antiquewhite;
+}
+.Name{
+  background-color: aqua;
+}
+.Showing{
+  margin: 5%;
+  padding: 5%;
+  background-color: rgb(75, 75, 23);
+  text-shadow: aqua;
+}
