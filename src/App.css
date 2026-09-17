@@ -1,8 +1,10 @@
 .stud{
-  border: 2px solid white;
+  border: 2px solid rgb(5, 0, 0);
   margin-left: 10vh;
-  padding: 3px;
-  margin-top: 5vh;
+  padding: 3%;
+  margin: 5%;
+  color: black;
+  text-decoration:solid;
 }
 *{
   margin: 5%;
@@ -14,7 +16,7 @@
   background-color: rgb(5, 40, 40);
 }
 body{
-  background-color: antiquewhite;
+  background-color: rgb(18, 13, 2);
 }
 .Name{
   background-color: aqua;
@@ -23,5 +25,21 @@ body{
   margin: 5%;
   padding: 5%;
   background-color: rgb(75, 75, 23);
-  text-shadow: aqua;
+  text-shadow: rgb(17, 7, 84);
+}
+.stud{
+  background-color: rgb(25, 88, 50);
+  font-size: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 150px;
+}
+.login{
+  background-color: blue;
+}
+.login button{
+  background-color: rgb(138, 244, 184);
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 22px;
+  color: rgb(32, 1, 29);
 }
